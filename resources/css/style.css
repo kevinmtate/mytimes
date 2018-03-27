@@ -31,7 +31,7 @@ a {
 }
 
 
-/* Main content section */
+/* Main content section structure */
 
 div {
 	border: 1px solid black;
@@ -47,6 +47,7 @@ div {
 .column {
 	display: flex;
 	flex-direction: column;
+	margin-right: 25px;
 }
 
 .column.large {
@@ -59,4 +60,33 @@ div {
 
 .column.small {
 	width: 240px;
+}
+
+.story {
+	font-family: Georgia;
+ 	font-size: 17px;
+  	color: black;
+}
+/* Add Images */
+.image {
+	display: flex;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.image.main { 
+	background-image: url("../images/img-story-main.png");
+	font-size: 40px; 
+}
+
+.image.earth { background-image: url("../images/img-earth.png"); 
+}
+
+.image.camera { 
+	background-image: url("../images/img-camera.png") 
+}
+
+.image.cats { 
+	background-image: url("../images/img-cats.png"); 
 }
