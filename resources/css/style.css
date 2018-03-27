@@ -67,24 +67,30 @@ div {
  	font-size: 17px;
   	color: black;
 }
-/* Add Images */
+
 .image {
 	display: flex;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
-}
-.image.main { 
-	background-image: url("../images/img-story-main.png");
-	font-size: 40px; 
+	height: 300px;
 }
 
-.image.earth { background-image: url("../images/img-earth.png"); 
+
+/* Images */
+
+.image.main { 
+	background-image: url("../images/img-story-main.png");
+	font-size: 40px;
+}
+
+.image.earth { 
+	background-image: url("../images/img-earth.png"); 
 }
 
 .image.camera { 
-	background-image: url("../images/img-camera.png") 
+	background-image: url("../images/img-camera.png");
 }
 
 .image.cats { 
