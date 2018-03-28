@@ -134,3 +134,38 @@ a {
 
 
 /* Footer */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	height: 350px;
+  	width: 100%;
+  	background-color: MediumAquamarine;
+}
+
+.footer-content {
+	margin: auto;
+ 	font-family: Verdana;
+  	font-size: 12px;
+}
+
+.footer-nav {
+	display: inline-block;
+}
+
+.footer-nav span {
+	padding: 10px;
+}
+
+.footer-logo {
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+}
+
+.wut {
+	border: 1px solid red;
+}
