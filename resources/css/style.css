@@ -1,7 +1,21 @@
 
+/* why does this user agent style sheet keep effing with me......*/
+
+body {
+	margin: 0px;
+}
+
 /* Header section */
 
 header {
+	position: fixed;
+	z-index: 10;
+	background-color: white;
+	width: 100%;
+	margin: 0;
+}
+
+.header {
 	display: flex;
 	font-family: Verdana;
   	font-size: 14px;
@@ -9,8 +23,8 @@ header {
   	border-bottom: 1px solid black;
   	justify-content: space-between;
   	padding: 10px;
-  	align-items: center;
-  }
+	align-items: center;
+}
 
 .logo {
 	color: MediumAquamarine;
@@ -37,7 +51,7 @@ a {
 	display: flex;
 	width: 1200px;
 	margin: 0 auto;
-	padding-top: 35px;
+	padding-top: 86px;
 	justify-content: space-between;
 }
 
@@ -69,7 +83,7 @@ a {
 }
 
 .story {
-	dislay: flex;
+	display: flex;
   	flex-direction: column;
   	justify-content: space-between;
 }
@@ -82,15 +96,6 @@ a {
 
 .lc-story {
 	width: 300px;
-}
-
-.image {
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 30px;
-	color: white;
-	height: 300px;
-	text-align: center;
 }
 
 
@@ -113,6 +118,19 @@ a {
 
 
 /* Images */
+
+.image {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	height: 300px;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 #img-main { 
 	background-image: url("../images/img-story-main.png");
@@ -137,12 +155,13 @@ a {
 
 footer {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center; 
 	height: 350px;
   	width: 100%;
-  	background-color: MediumAquamarine;
+	background-color: MediumAquamarine;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
 }
 
 .footer-content {
@@ -164,8 +183,4 @@ footer {
   	font-size: 16px;
   	font-weight: bold;
   	color: white;
-}
-
-.wut {
-	border: 1px solid red;
 }
